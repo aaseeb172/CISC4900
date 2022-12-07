@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border:0pt none;
+	font-family:inherit;
+	font-size:100%;
+	font-style:inherit;
+	font-weight:inherit;
+	margin:0pt;
+	outline-color:invert;
+	outline-style:none;
+	outline-width:0pt;
+	padding:0pt;
+	vertical-align:baseline;
+}
+
+
+
+
+* {
+	margin:0pt;
+	padding:0pt;
+}
+
+body {
+	background-image: url('images/laptop-cloud-storage-shared-access-isometric-vector-id1063730694_0.png');
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+
+	
+	font-size:50px;
+	font-family:arial, sans-serif;
+	color: white;
+	
+}
+
+a {
+	color:#fefefe;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#fefefe;
+	text-decoration:none;
+}
+
+#top {
+	height:220px;
+	display:none;
+}
+
+#wrapper {
+	width:100%;
+	margin:-4px 0 0 0;
+}
+
+.content {
+	width:940px;
+	margin:0px auto;	
+	
+}
+
+#header {
+	padding:35px 0px 35px 0px;
+	color:#fff;
+	
+}
+
+h1{
+	margin:43px 0 0 0px;
+	padding:0px 0 0 70px;
+	font-size:60px;
+	font-weight:bold;
+	font-family:"myriad pro";
+	color:#fff;
+}
+
+h1 a{
+	color:#fff;
+	display:block;
+}
+
+h1 a:hover{
+	color:#fff;
+}
+h1 a span{
+	font-size:16.5px;
+	font-weight:bold;
+	color:#cfe7f1;
+	display:block;
+	text-transform:uppercase;
+	font-weight:normal;
+	position:absolute;
+}
+
+#menu ul {
+	font-size:30px;
+	list-style:none;
+	color:#fffdbf;
+	text-align:center;
+	margin:100px 0 0 0;
+}
+
+#menu ul li{
+	display:inline;
+}
+
+#menu ul li a{
+	color:#f6f5f9;	
+	display:inline-block;
+	padding:12px 22px;
+	line-height:27px;
+	text-decoration:none;
+}
+
+#menu ul li a:hover{
+	color:rgb(228, 103, 224);	
+}
+#details {
+	font-size:16px;
+	font-family:arial, sans-serif;
+	color: white;
+	text-align: center;
+	line-height: 2.5;
+
+}
+h2 {
+	text-align: center;
+	font-size: 20px;
+
+}
+
+
+
+h3 {
+	font-size:16px;
+	color:#fefefe;
+	padding:0 0 10px 0;
+}
+
+
+
+#left {
+	float:left;
+	width:200px;
+	padding:0 100px 0 0;
+}
+
+h4 {
+	font-family:"Myriad Pro";
+	font-size:30px;
+	font-weight:bold;
+	color:#fffdbf;
+	padding:40px 0 12px 0;
+}
+
+h5 {
+	display:inline-block;
+	padding:17px 0;
+	font-family:"Myriad Pro";
+	font-weight:bold;
+}
+
+h5 a{
+	margin:0px 25px 0px 0px;
+	color:#fffdbf;
+	font-size:22px;
+
+}
+
+h5 a:hover{
+	text-decoration:underline;
+	color:#fffdbf;
+
+}
