@@ -1,6 +1,6 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
 	border:0pt none;
-	font-family:inherit;
+	font-family:'Times New Roman', Times, serif;
 	font-size:100%;
 	font-style:inherit;
 	font-weight:inherit;
@@ -23,21 +23,24 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
 	background-image: url('images/laptop-cloud-storage-shared-access-isometric-vector-id1063730694_0.png');
 	background-repeat: no-repeat;
-	background-attachment: local;
 	background-size: cover;
-	height: 100%;
-	width: 100%;
+	background-position: center;
+	image-rendering:pixelated;
+
+
+
 
 	
 	font-size:50px;
-	font-family:arial, sans-serif;
+	font-family:'Times New Roman', Times, serif, sans-serif;
 	color: white;
+	font-weight: bold;
 	
 }
 
 a {
 	color:#fefefe;
-	text-decoration:none;
+	text-decoration: none;
 }
 
 a:hover {
@@ -70,7 +73,7 @@ a:hover {
 h1{
 	margin:43px 0 0 0px;
 	padding:0px 0 0 70px;
-	font-size:60px;
+	font-size:80px;
 	font-weight:bold;
 	font-family:"myriad pro";
 	color:#fff;
@@ -85,7 +88,7 @@ h1 a:hover{
 	color:#fff;
 }
 h1 a span{
-	font-size:16.5px;
+	font-size:20px;
 	font-weight:bold;
 	color:#cfe7f1;
 	display:block;
@@ -173,4 +176,10 @@ h5 a:hover{
 	text-decoration:underline;
 	color:#fffdbf;
 
+}
+.text {
+	font-family: 'Times New Roman', Times, serif;
+}
+.details {
+	font-family: 'Times New Roman', Times, serif;
 }
