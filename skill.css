@@ -26,7 +26,7 @@ h1, h2, h3 {
 	margin-top: -8;
 	margin-bottom: -8;
 
-	background: url(bg1.jpg) no-repeat;
+	background: url(images/bg1.jpg) no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
