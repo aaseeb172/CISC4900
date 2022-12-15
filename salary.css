@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500&family=Raleway:ital,wght@1,100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    padding: 5px 70px;
+    box-sizing: border-box;
+    background:rgba(24, 45, 104, 0.575);
+    border-bottom:  1px solid rgb(4, 18, 100);
+
+
+}
+nav .heading {
+    padding: 25px 30px;
+    float:left;
+    font-size: 28px;
+    font-weight: bold;
+    color:rgba(177, 202, 32, 0.76);
+    
+}
+nav ul{
+    list-style:none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display:flex;
+
+}
+nav ul li a{
+    line-height: 80px;
+    color: rgb(245, 239, 240);
+    padding: 12px 30px;
+    text-decoration:none;
+    font-size: 17px;
+    font-weight: bold;
+   
+}
+nav ul li a:hover{
+    background:rgba(20, 134, 187, 0.897);
+    border-radius: 2px;
+    
+
+}
+
+  
+body {
+    
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+    
+}
+#theAcc {
+    margin: 100px auto;
+    width: 700px;
+}
+
+#theAcc li{
+    list-style:none;
+    width: auto;
+    margin-bottom: 15px;
+    background: rgb(92, 187, 231);
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+#theAcc li label{
+    
+    display:flex;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(14, 15, 15, 0.808);
+    padding-left: 5px;
+  
+}
+
+
+#theAcc li label span {
+    transform: rotate(90deg);
+
+    
+}
+#theAcc label + input[type= "radio"]{
+    display: none;
+}
+#theAcc label + input[type= "radio"]:checked+ .text{
+    max-height: 200px;
+
+}
+#theAcc .text {
+    padding: 0 10px;
+    line-height: 25px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s;
+    color: rgba(255, 255, 255, 0.712);
+    
+
+}
